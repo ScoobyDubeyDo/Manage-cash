@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "open-sans", sans-serif;
+}
+body {
+  background: #011e35;
+}
+.App {
+  max-width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.App h1 {
+  font-size: x-large;
+  padding: 20px 0px;
+}
+
+.App p {
+  padding: 10px;
+}
+
+.App > header,
+.err-dsply {
+  margin: 20px 0px;
+}
+
+label,
+.output > div {
+  display: block;
+  font-size: x-large;
+  margin: 20px 0px;
+  color: #6a8294;
+}
+
+input[type="number"] {
+  width: 100%;
+  font-size: 600;
+  padding: 15px;
+  outline: none;
+}
+
+.check-result {
+  background: #6a8294;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 20px;
+  padding: 10px;
+}
+
+.check-result:active {
+  color: #6a8294;
+  background: #ffffff;
+}
+table,
+th,
+td {
+  padding: 2px;
+  background-color: #6a8294;
+  border: 2px solid #093557;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+th,
+td {
+  word-wrap: break-word;
+}
